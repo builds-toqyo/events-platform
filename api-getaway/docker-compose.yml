@@ -3,7 +3,7 @@ version: "3.8"
 services:
   postgres_gopos:
     image: postgres:15.4-alpine3.18
-    container_name: postgres_gopos
+    container_name: postgres_ticket
     env_file:
       - .env
     ports:
