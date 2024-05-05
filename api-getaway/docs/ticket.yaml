@@ -1,0 +1,17 @@
+openapi: 3.0.0
+info:
+  title: TICKET POS API
+  version: 1.0.0
+  description: API for payments, ticketing system,aids event people as an api
+servers:
+  - url: http://tickets.test/api/v1
+paths:paths:
+  /login:
+    post:
+      summary: User Login
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              $ref: '#/components/schemas/User'
