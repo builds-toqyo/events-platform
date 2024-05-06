@@ -1,6 +1,6 @@
 openapi: 3.0.0
 info:
-  title: TICKET POS API
+  title: TICKET API
   version: 1.0.0
   description: API for payments, ticketing system,aids event people as an api
 servers:

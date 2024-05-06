@@ -5,6 +5,7 @@ import (
 	"log"
 	"os"
 
+	"github.com/builds-toqyo/events-platform/api-getaway/pkg/db"
 	"github.com/jmoiron/sqlx"
 	_ "github.com/lib/pq"
 )
